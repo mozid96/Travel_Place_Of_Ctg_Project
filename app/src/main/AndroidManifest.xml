@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.travel_place_of_ctg_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chittagong"
+        android:label="BD Travel"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ListviewActivity" />
+        <activity android:name=".WithOutFeeActivity" />
+        <activity android:name=".NearestPlaceActivity" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".Division_nameActivity" />
+        <activity android:name=".DhakaActivity" />
+        <activity android:name=".BarisalActivity" />
+        <activity android:name=".KhulnaActivity" />
+        <activity android:name=".RajsahiActivity" />
+        <activity android:name=".SylhetActivity" />
+        <activity android:name=".CtgActivity"></activity>
+    </application>
+
+</manifest>
